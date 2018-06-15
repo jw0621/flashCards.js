@@ -1,0 +1,23 @@
+{
+  "name": "flashcards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BasicCard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jw0621/flashCards.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jw0621/flashCards.js/issues"
+  },
+  "homepage": "https://github.com/jw0621/flashCards.js#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "require": "^2.4.20"
+  }
+}

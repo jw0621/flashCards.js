@@ -1,6 +1,6 @@
-var BasicCard = require('./BasicCard.js');
-var ClozeCard = function (text, cloze) {
-    if (this instanceof ClozeCard){
+var basicCard = require("./basicCard.js");
+var clozeCard = function (text, cloze) {
+    if (this instanceof clozeCard){
         this.fullText = text;
         this.cloze = cloze;
         this.partial = function () {
@@ -16,4 +16,4 @@ var ClozeCard = function (text, cloze) {
         return new ClozeCard(text, cloze)
     }
 }
-module.exports = ClozeCard
+module.exports = clozeCard
